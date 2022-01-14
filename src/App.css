@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  font-family: "Nimbus Sans", sans-serif;
+  color: var(--dark-grey);
+  background-color: hsl(0,0%,98%) !important;
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+}
+
+.data-list-item {
+  max-width: 75%;
+  margin: 0px auto 1.5rem;
+  border: 1px solid var(--light-grey);
+  background-color: var(--bg-white);
+  display: block;
+  color: #212529;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.data-list-image {
+  width: 100%;
+}
+
+.data-list-text { 
+  padding: 1%;
+}
